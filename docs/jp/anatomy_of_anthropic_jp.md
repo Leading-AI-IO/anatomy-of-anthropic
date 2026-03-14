@@ -1104,19 +1104,17 @@ Anthropicの文化を象徴する、他のAI企業には見られない慣行が
 
 Anthropicの全体構造を俯瞰すると、一つのフライホイール（自己強化ループ）が見えてくる。
 
-```
-安全性研究（Constitutional AI / Interpretability / RSP）
+1. 安全性研究（Constitutional AI / Interpretability / RSP）  <br>
     ↓
-信頼の構築（国防総省拒否 / App Store 1位 / エンタープライズ採用）
+2. 信頼の構築（国防総省拒否 / App Store 1位 / エンタープライズ採用） <br>
     ↓
-製品の採用拡大（Claude Code $1B / Cowork / Microsoft統合）
+3. 製品の採用拡大（Claude Code $1B / Cowork / Microsoft統合） <br>
     ↓
-収益の成長（売上90億→190億ドル / 評価額$380B）
+4. 収益の成長（売上90億→190億ドル / 評価額$380B） <br>
     ↓
-研究への再投資（安全性研究 / Interpretability / Economic Index）
+5. 研究への再投資（安全性研究 / Interpretability / Economic Index） <br>
     ↓
-（ループの先頭に戻る）
-```
+6. （ループの先頭に戻る） <br>
 
 このフライホイールの起点は「安全性研究」であり、「収益」ではない。
 
@@ -1173,7 +1171,11 @@ Anthropicは「良い企業」なのか「危険な企業」なのか。
 
 Anthropicは**設計された企業**だ。
 
-PBCとLTBTは、安全性の優先が構造的に持続する組織を設計した（第1章）。Constitutional AIとMechanistic Interpretabilityは、AIの挙動を原則に基づいて制御し検証する方法を設計した（第2章）。Haiku / Sonnet / Opusの3ティア構造は、製品体験を最適化するインフラを設計した（第3章）。Claude Code / Cowork / MCPは、「対話」ではなく「実行」を提供する製品群を設計した（第4章）。Economic Indexは、自社製品の社会的影響を測定するダッシュボードを設計した（第5章）。
+PBCとLTBTは、安全性の優先が構造的に持続する組織を設計した（第1章）。 <br>
+Constitutional AIとMechanistic Interpretabilityは、AIの挙動を原則に基づいて制御し検証する方法を設計した（第2章）。 <br>
+Haiku / Sonnet / Opusの3ティア構造は、製品体験を最適化するインフラを設計した（第3章）。 <br>
+Claude Code / Cowork / MCPは、「対話」ではなく「実行」を提供する製品群を設計した（第4章）。 <br>
+Economic Indexは、自社製品の社会的影響を測定するダッシュボードを設計した（第5章）。 <br>
 
 全てが設計だ。偶然や成り行きで生まれたものは1つもない。
 
