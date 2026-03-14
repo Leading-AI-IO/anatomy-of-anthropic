@@ -1,97 +1,118 @@
 # Anatomy of Anthropic — The Philosophy, Products, Economics, and Governance Behind the World's Most Deliberate AI Company
 
-### Anthropic解体新書 — 世界で最も慎重なAI企業の思想・製品・経済・統治を構造化する
+**Anthropic解体新書 — 世界で最も慎重なAI企業の思想・製品・経済・統治を構造化する**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Language: English | Japanese](https://img.shields.io/badge/Language-English%20%7C%20Japanese-blue.svg)](#)
+[![Language](https://img.shields.io/badge/Language-English%20%7C%20Japanese-blue)](docs/)
+
+<p align="left">
+  <img src="./assets/cover_design.png" width="80%">
+</p>
+
+*Read this in other languages: [English](README_en.md)*
 
 ---
 
-## Overview
+## 📖 概要
 
 Anthropicは、世界で最も慎重なAI企業であると同時に、世界で最も破壊的なAI企業である。
 
-2021年にOpenAIから分岐し、公益法人（PBC）として設立されたこの企業は、AIに「憲法」を与え（Constitutional AI）、自らの破壊力を測定し（Economic Index）、倫理を貫いたことで国防総省から追放されながらApp Storeで1位を獲得した。
+Claude Codeは6ヶ月で年間売上10億ドルに到達し、Coworkはソフトウェア株2,850億ドルの暴落を引き起こし、MCPはLinux Foundationに寄贈されてAI接続の業界標準となった。国防総省との契約を倫理的理由で拒否した同じ月に、App Storeでダウンロード数1位を獲得した。
 
-Claude Code は6ヶ月で10億ドルの年間売上に到達し、Cowork はソフトウェア株2,850億ドルの暴落を引き起こし、MCP はLinux Foundationに寄贈されてAI接続の業界標準となった。
+なぜ「慎重さ」と「破壊力」は矛盾しないのか。
 
-本書は、この企業体を「解剖」する。
+本書は、この企業体を「解剖」する。起源（PBC / LTBT）、思想（Constitutional AI / Mechanistic Interpretability）、技術（Haiku / Sonnet / Opus）、製品（Claude Code / Cowork / MCP）、経済（Anthropic Economic Index）、統治（RSP / 倫理ブランド）。6つのレイヤーを構造化し、全てが一貫した設計によって接続されていることを解き明かす。
 
-思想（Constitutional AI）、技術（Haiku / Sonnet / Opus）、製品（Claude Code / Cowork / MCP）、経済（Anthropic Economic Index）、統治（RSP / PBC）。5つのレイヤーを構造化し、なぜ「慎重さ」と「破壊力」が矛盾しないのかを解き明かす。
+**解剖してみたら、1つの設計図が出てきた。それがAnthropicという企業の正体である。**
 
-本書は、[Silence of Intelligence](https://github.com/Leading-AI-IO/silence-of-intelligence)（ダリオ・アモディの思想を分析した書籍）の続編であり、Anthropicの「思想」から「企業体の全容」へと射程を拡張する。
+本書は、[Silence of Intelligence](https://github.com/Leading-AI-IO/silence-of-intelligence)（ダリオ・アモディの思想を構造分析した書籍）の続編であり、「思想」から「企業体の全容」へと射程を拡張する。
 
 ---
 
-## Chapters
+## 🏗️ 構成
+
+本書は全6章で構成される。
 
 | 章 | タイトル | 解剖対象 |
 |---|---|---|
-| 第1章 | [The Split — OpenAIからの分岐と、Anthropicが生まれた構造的必然](docs/chapter1_the_split.md) | 起源 |
-| 第2章 | [Constitutional AI — AIに「憲法」を与えるという思想実験](docs/chapter2_constitutional_ai.md) | 思想 |
-| 第3章 | [The Model Architecture — Haiku, Sonnet, Opus](docs/chapter3_the_model_architecture.md) | 技術 |
-| 第4章 | [The Product Trinity — Claude Code, Cowork, MCP](docs/chapter4_the_product_trinity.md) | 製品 |
-| 第5章 | [The Economic Index — 自らの破壊力を測定する企業](docs/chapter5_the_economic_index.md) | 経済 |
-| 第6章 | [The Deliberate Company — なぜAnthropicは「最も慎重」でありながら「最も破壊的」なのか](docs/chapter6_the_deliberate_company.md) | 統治 |
+| 第1章 | The Split — OpenAIからの分岐と、Anthropicが生まれた構造的必然 | 起源。Scaling Lawsの発見者がスケーリングの危険を訴えた矛盾。PBC（公益法人）とLTBT（長期利益信託）の設計 |
+| 第2章 | Constitutional AI — AIに「憲法」を与えるという思想実験 | 思想。RLHFの限界、原則→自己批判→修正のループ、Claude's Character、Mechanistic Interpretability |
+| 第3章 | The Model Architecture — Haiku, Sonnet, Opus | 技術。3ティア構造の設計思想、「大きい＝良い」を2回破壊した歴史、Extended Thinking、Computer Use、Agent Team |
+| 第4章 | The Product Trinity — Claude Code, Cowork, MCP | 製品。ターミナルの制圧、デスクトップの制圧、プロトコル層の制圧。「対話ではなく実行、会話ではなく作業」の統一戦略 |
+| 第5章 | The Economic Index — 自らの破壊力を測定する企業 | 経済。Clio、5つの経済プリミティブ、49%の職業への浸透、22-25歳の採用減速、「危機を測定するが処方箋を出さない」空白 |
+| 第6章 | The Deliberate Company — なぜAnthropicは「最も慎重」でありながら「最も破壊的」なのか | 統治。RSP v3.0、国防総省拒否→App Store 1位の逆説、フライホイール構造、慎重さと破壊力のパラドックスの解消 |
 
 ---
 
-## English Version
+## 📄 ドキュメント
 
-| Chapter | Title |
-|---|---|
-| Chapter 1 | [The Split — The Structural Inevitability of Anthropic's Birth](docs/en/chapter1_the_split.md) |
-| Chapter 2 | [Constitutional AI — The Thought Experiment of Giving AI a Constitution](docs/en/chapter2_constitutional_ai.md) |
-| Chapter 3 | [The Model Architecture — Haiku, Sonnet, Opus](docs/en/chapter3_the_model_architecture.md) |
-| Chapter 4 | [The Product Trinity — Claude Code, Cowork, MCP](docs/en/chapter4_the_product_trinity.md) |
-| Chapter 5 | [The Economic Index — The Company That Measures Its Own Destructive Power](docs/en/chapter5_the_economic_index.md) |
-| Chapter 6 | [The Deliberate Company — Why Anthropic Is Both the Most Cautious and the Most Disruptive](docs/en/chapter6_the_deliberate_company.md) |
+| ファイル | 言語 | 内容 |
+|---|---|---|
+| [anatomy_of_anthropic_jp.md](./docs/anatomy_of_anthropic_jp.md) | 🇯🇵 日本語 | 本文（日本語版） |
+| [anatomy_of_anthropic_en.md](./docs/en/anatomy_of_anthropic_en.md) | 🇺🇸 English | 本文（英語版） |
 
 ---
 
-## Who This Book Is For
+## 📚 参考文献（主要）
 
-- **ビジネスリーダー・経営者**: AI企業の戦略をモデルや価格だけでなく、思想・統治・経済影響の全レイヤーで理解したい人
-- **AI戦略担当者・コンサルタント**: クライアントにAnthropicの全体像を構造的に説明する必要がある人
-- **エンジニア・プロダクトマネージャー**: Claude Code / Cowork / MCPの製品設計思想を深く理解したい人
-- **政策立案者・研究者**: AI企業のガバナンス構造とResponsible Scaling Policyの実装を研究する人
-- **全てのAIユーザー**: 自分が毎日使っているClaudeが、どのような思想と構造の上に成り立っているかを知りたい人
-
----
-
-## Related Projects by the Author
-
-| Repository | Description |
-|---|---|
-| [Silence of Intelligence](https://github.com/Leading-AI-IO/silence-of-intelligence) | ダリオ・アモディの思想を構造分析した書籍（本書の前編） |
-| [Depth & Velocity](https://github.com/Leading-AI-IO/depth-and-velocity) | AI時代の組織設計フレームワーク — 10:80:10モデル |
-| [The Orchestrator](https://github.com/Leading-AI-IO/the-orchestrator-in-the-ai-era) | AI時代に最も希少な人材の定義 |
-| [Palantir Ontology Strategy](https://github.com/Leading-AI-IO/palantir-ontology-strategy) | パランティアのオントロジー戦略を構造分析 |
-| [Design Strategy in the AI Era](https://github.com/Leading-AI-IO/design-strategy-in-the-ai-era) | AI時代のデザイン戦略を再定義 |
-| [Edge of Intelligence](https://github.com/Leading-AI-IO/edge-ai-intelligence) | オンデバイスAI時代の構造変化 |
-| [The AI Strategist](https://github.com/Leading-AI-IO/the-ai-strategist) | AIストラテジストの定義 |
-| [What They Won't Teach You](https://github.com/Leading-AI-IO/what-they-wont-teach-you) | AI時代の世代間責務を再定義 |
+| ソース | 核心的概念 | 本書での役割 |
+|---|---|---|
+| **Dario Amodei** | Scaling Laws、Machines of Loving Grace、The Urgency of Interpretability | Anthropicの思想的起源。第1章・第2章の中核 |
+| **Constitutional AI論文** (Bai et al., 2022) | 原則→自己批判→修正のループ、RLHF代替 | 第2章。Anthropicの技術的差別化の根幹 |
+| **Mechanistic Interpretability研究** | SAE、Golden Gate Claude、Circuit Tracing | 第2章。Constitutional AIの「検証装置」 |
+| **Claude Model Spec / Claude's Character** | 4つのコア原則の階層構造、AIの性格設計 | 第2章。有用性を最下位に置く設計思想 |
+| **Anthropic Economic Index** (Handa et al.) | Clio、5つの経済プリミティブ、職業別AI浸透率 | 第5章。自社製品の社会的影響を測定する世界唯一の取り組み |
+| **Massenkoff & McCrory (2026)** | 労働市場影響の新指標、22-25歳採用減速 | 第5章。「ホワイトカラーの大不況」の可能性 |
+| **RSP v3.0** | ASL体系、Capability Thresholds、Safety Case | 第6章。能力と安全性のレースの制度設計 |
+| **山内怜史** | Silence of Intelligence、What They Won't Teach You | 前編との接続（第1章）、Economic Indexの空白を埋める処方箋（第5章） |
 
 ---
 
-## Author
+## 🔗 Related Projects
 
-**山内怜史（Satoshi Yamauchi）**
-AI Strategist & Business Designer | Leading AI, LLC
-Biz × Tech × Creative — 3領域を越境するプロフェッショナル
+本書は、以下のOSSプロジェクトと相互に接続されている。
 
-- [Leading AI](https://www.leading-ai.io/)
-- [note](https://note.com/satoshi_yamauchi)
-- [LinkedIn](https://www.linkedin.com/in/satoshi-yamauchi/)
-- [NewsPicks](https://newspicks.com/user/1950744/)
+| プロジェクト | 概要 | リンク |
+|---|---|---|
+| **The Silence of Intelligence** | Anthropic CEO ダリオ・アモディの思想を構造分析。本書の前編 | [GitHub](https://github.com/Leading-AI-IO/silence-of-intelligence) |
+| **What They Won't Teach You** | AIに有利な世代が教えない、AIの使い方と"思考のOS"。Economic Indexの空白を埋める処方箋 | [GitHub](https://github.com/Leading-AI-IO/what-they-wont-teach-you) |
+| **Depth & Velocity** | 生成AI時代の新規事業開発方法論。10:80:10モデル | [GitHub](https://github.com/Leading-AI-IO/depth-and-velocity) |
+| **The Orchestrator** | AI時代に最も希少な人材の定義 | [GitHub](https://github.com/Leading-AI-IO/the-orchestrator-in-the-ai-era) |
+| **The Palantir Impact** | Palantir Foundryのオントロジー戦略を解剖。産業構造の解剖シリーズ第1弾 | [GitHub](https://github.com/Leading-AI-IO/palantir-ontology-strategy) |
+| **The Redesign of Design Strategy** | AI時代のデザイン戦略を再定義 | [GitHub](https://github.com/Leading-AI-IO/design-strategy-in-the-ai-era) |
+| **The Edge of Intelligence** | オンデバイスAI時代の構造変化 | [GitHub](https://github.com/Leading-AI-IO/edge-ai-intelligence) |
+| **The AI Strategist** | AIストラテジストの定義 | [GitHub](https://github.com/Leading-AI-IO/the-ai-strategist) |
 
 ---
 
-## License
+## 👤 著者
 
-This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+**Satoshi Yamauchi** (山内 怜史)<br>
 
-You are free to share and adapt this material for any purpose, including commercial use, as long as appropriate credit is given.
+* **AI Strategist & Business Designer at Sun Asterisk Inc.**
+
+* **Founder / AI Strategist at Leading.AI**
+
+* 15年以上にわたりBusiness・Technology・Creativeの3領域を越境。フューチャーアーキテクトでITコンサルタントとして40案件のPL/PMを推進後、リクルートで事業戦略・新規事業開発に従事。Sun Asteriskでビジネスデザイナー兼AIストラテジストとして、新規事業×生成AIの方法論「Depth & Velocity」を体系化。
+
+* This project is part of the research by Leading.AI.
+
+* [📒 Read my insights on Note](https://note.com/satoshi_yamauchi)
+
+* [🌐 Visit Leading.AI Official Website](https://www.leading-ai.io/)
+
+---
+
+## 🤝 Contributing
+
+Issues and Pull Requests are welcome. Anthropicの製品戦略・ガバナンス構造に関する議論、参考文献の追加、誤字脱字の修正など、皆様からのContributeを歓迎します。
+
+---
+
+## 📝 License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).<br>
+© 2026 Satoshi Yamauchi / Leading AI — Licensed under CC BY 4.0
 
 ---
 
