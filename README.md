@@ -48,7 +48,7 @@ Claude Codeは6ヶ月で年間売上10億ドルに到達し、Coworkはソフト
 
 | ファイル | 言語 | 内容 |
 |---|---|---|
-| [anatomy_of_anthropic_jp.md](./docs/anatomy_of_anthropic_jp.md) | 🇯🇵 日本語 | 本文（日本語版） |
+| [anatomy_of_anthropic_jp.md](./docs/jp/anatomy_of_anthropic_jp.md) | 🇯🇵 日本語 | 本文（日本語版） |
 | [anatomy_of_anthropic_en.md](./docs/en/anatomy_of_anthropic_en.md) | 🇺🇸 English | 本文（英語版） |
 
 ---
