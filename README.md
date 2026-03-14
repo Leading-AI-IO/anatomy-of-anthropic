@@ -53,21 +53,6 @@ Claude Codeは6ヶ月で年間売上10億ドルに到達し、Coworkはソフト
 
 ---
 
-## 📚 参考文献（主要）
-
-| ソース | 核心的概念 | 本書での役割 |
-|---|---|---|
-| **Dario Amodei** | Scaling Laws、Machines of Loving Grace、The Urgency of Interpretability | Anthropicの思想的起源。第1章・第2章の中核 |
-| **Constitutional AI論文** (Bai et al., 2022) | 原則→自己批判→修正のループ、RLHF代替 | 第2章。Anthropicの技術的差別化の根幹 |
-| **Mechanistic Interpretability研究** | SAE、Golden Gate Claude、Circuit Tracing | 第2章。Constitutional AIの「検証装置」 |
-| **Claude Model Spec / Claude's Character** | 4つのコア原則の階層構造、AIの性格設計 | 第2章。有用性を最下位に置く設計思想 |
-| **Anthropic Economic Index** (Handa et al.) | Clio、5つの経済プリミティブ、職業別AI浸透率 | 第5章。自社製品の社会的影響を測定する世界唯一の取り組み |
-| **Massenkoff & McCrory (2026)** | 労働市場影響の新指標、22-25歳採用減速 | 第5章。「ホワイトカラーの大不況」の可能性 |
-| **RSP v3.0** | ASL体系、Capability Thresholds、Safety Case | 第6章。能力と安全性のレースの制度設計 |
-| **山内怜史** | Silence of Intelligence、What They Won't Teach You | 前編との接続（第1章）、Economic Indexの空白を埋める処方箋（第5章） |
-
----
-
 ## 🔗 Related Projects
 
 本書は、以下のOSSプロジェクトと相互に接続されている。
@@ -88,17 +73,12 @@ Claude Codeは6ヶ月で年間売上10億ドルに到達し、Coworkはソフト
 ## 👤 著者
 
 **Satoshi Yamauchi** (山内 怜史)<br>
-
 * **AI Strategist & Business Designer at Sun Asterisk Inc.**
-
 * **Founder / AI Strategist at Leading.AI**
-
-* 15年以上にわたりBusiness・Technology・Creativeの3領域を越境。フューチャーアーキテクトでITコンサルタントとして40案件のPL/PMを推進後、リクルートで事業戦略・新規事業開発に従事。Sun Asteriskでビジネスデザイナー兼AIストラテジストとして、新規事業×生成AIの方法論「Depth & Velocity」を体系化。
 
 * This project is part of the research by Leading.AI.
 
 * [📒 Read my insights on Note](https://note.com/satoshi_yamauchi)
-
 * [🌐 Visit Leading.AI Official Website](https://www.leading-ai.io/)
 
 ---
