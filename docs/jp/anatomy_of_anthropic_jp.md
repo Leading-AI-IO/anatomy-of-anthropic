@@ -1,3 +1,13 @@
+# Anatomy of Anthropic — The Philosophy, Products, Economics, and Governance Behind the World's Most Deliberate AI Company
+**Anthropic解体新書 — 世界で最も慎重なAI企業の思想・製品・経済・統治を構造化する**
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Language](https://img.shields.io/badge/Language-English%20%7C%20Japanese-blue)](docs/)
+
+<p align="left">
+  <img src="../../assets/cover_design.png" width="80%">
+</p>
+
 # 第1章: The Split — OpenAIからの分岐と、Anthropicが生まれた構造的必然
 
 ## 1.1 スケーリングの発見者が、スケーリングの危険を訴えた矛盾
