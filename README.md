@@ -59,14 +59,14 @@ Claude Codeは6ヶ月で年間売上10億ドルに到達し、Coworkはソフト
 
 | プロジェクト | 概要 | リンク |
 |---|---|---|
-| **The Silence of Intelligence** | Anthropic CEO ダリオ・アモディの思想を構造分析。本書の前編 | [GitHub](https://github.com/Leading-AI-IO/silence-of-intelligence) |
-| **What They Won't Teach You** | AIに有利な世代が教えない、AIの使い方と"思考のOS"。Economic Indexの空白を埋める処方箋 | [GitHub](https://github.com/Leading-AI-IO/what-they-wont-teach-you) |
-| **Depth & Velocity** | 生成AI時代の新規事業開発方法論。10:80:10モデル | [GitHub](https://github.com/Leading-AI-IO/depth-and-velocity) |
-| **The Orchestrator** | AI時代に最も希少な人材の定義 | [GitHub](https://github.com/Leading-AI-IO/the-orchestrator-in-the-ai-era) |
+| **The AI Strategist** | AIストラテジストという職業を定義し、BTC交差点で戦うための実践的フレームワーク | [GitHub](https://github.com/Leading-AI-IO/the-ai-strategist) |
+| **Depth & Velocity** | 生成AI時代の新規事業開発方法論 | [GitHub](https://github.com/Leading-AI-IO/depth-and-velocity) |
+| **The Silence of Intelligence** | Anthropic CEO ダリオ・アモディの思想を体系化。産業構造の解剖シリーズ第2弾 | [GitHub](https://github.com/Leading-AI-IO/the-silence-of-intelligence) |
 | **The Palantir Impact** | Palantir Foundryのオントロジー戦略を解剖。産業構造の解剖シリーズ第1弾 | [GitHub](https://github.com/Leading-AI-IO/palantir-ontology-strategy) |
-| **The Redesign of Design Strategy** | AI時代のデザイン戦略を再定義 | [GitHub](https://github.com/Leading-AI-IO/design-strategy-in-the-ai-era) |
-| **The Edge of Intelligence** | オンデバイスAI時代の構造変化 | [GitHub](https://github.com/Leading-AI-IO/edge-ai-intelligence) |
-| **The AI Strategist** | AIストラテジストの定義 | [GitHub](https://github.com/Leading-AI-IO/the-ai-strategist) |
+| **What They Won't Teach You** | AIに有利な世代が教えない、AIの使い方と"思考のOS" | [GitHub](https://github.com/Leading-AI-IO/what-they-wont-teach-you) |
+| **The Edge of Intelligence** | AIがあなたのデバイスで動く時代：クラウドの終わりと、エッジの始まり | [GitHub](https://github.com/Leading-AI-IO/edge-ai-intelligence) |
+| **The Redesign of Design Strategy** | デザイン戦略の再定義。IDEO崩壊の構造分析を含む | [GitHub](https://github.com/Leading-AI-IO/design-strategy-in-the-ai-era) |
+| **The Orchestrator** | AI時代に最も希少な人材像「オーケストレーター」を世界で初めて定義 | [GitHub](https://github.com/Leading-AI-IO/the-orchestrator-in-the-ai-era) |
 | **Advertising, Redesigned** | AIが広告を「割り込み」から「優しい提案」に変える。検索の終焉、広告が初めて「歓迎される存在」になる未来。 | [GitHub](https://github.com/Leading-AI-IO/advertising-redesigned) |
 
 ---
