@@ -1,0 +1,59 @@
+# Anatomy of Anthropic — The Philosophy, Products, Economics, and Governance Behind the World's Most Deliberate AI Company
+
+> A structural analysis by Satoshi Yamauchi (山内怜史), AI Strategist,
+> dissecting Anthropic across six layers: origin (PBC / Long-Term Benefit
+> Trust), philosophy (Constitutional AI / Mechanistic Interpretability),
+> model architecture (Haiku / Sonnet / Opus), products (Claude Code /
+> Cowork / MCP), economics (the Anthropic Economic Index), and governance
+> (Responsible Scaling Policy). As stated in the book's conclusion:
+> "Deliberateness generates trust. Trust generates adoption. Adoption
+> generates disruptive power." Sequel to the author's "The Silence of
+> Intelligence" (Industry Anatomy Series #2).
+
+## Book Content
+
+- [Full text (Japanese)](docs/jp/anatomy_of_anthropic_jp.md): 全6章・参考文献12件収録
+- [Full text (English)](docs/en/anatomy_of_anthropic_en.md): Complete English edition
+
+## Key Facts (as stated in the book)
+
+- Chapter 1: Anthropic was founded as a Public Benefit Corporation (PBC) in
+  2021, governed by a Long-Term Benefit Trust (LTBT) that holds the power to
+  appoint the board of directors — a structure the book describes as making
+  "safety-compromising decisions structurally difficult," in explicit
+  contrast to OpenAI's transition from non-profit to capped-profit
+- Chapter 2: The book states Claude's constitution has four core principles
+  in a strict hierarchy — safety and human oversight first, ethical behavior
+  second, Anthropic's guidelines third, and helpfulness to the user placed
+  last
+- Chapter 3: The book documents two occasions on which a mid-tier model
+  surpassed the prior flagship — Claude 3.5 Sonnet over Claude 3 Opus
+  (June 2024), and Claude Sonnet 4.6 over Opus 4.5 (Feb 2026, preferred by
+  70% of developers over Sonnet 4.5 and 59% over Opus 4.5)
+- Chapter 4: The book states Claude Code reached $1B in annual revenue
+  within 6 months of general availability, and that the Cowork research
+  preview was followed by roughly $285B in aggregate market-cap decline
+  across enterprise software stocks (ServiceNow, Salesforce, Snowflake,
+  Intuit, Thomson Reuters), with IBM falling 13.2% in a single day
+- Chapter 4: MCP (Model Context Protocol) was donated to the Agentic AI
+  Foundation under the Linux Foundation in Dec 2025, co-founded by
+  Anthropic, Block, and OpenAI
+- Chapter 5: The Anthropic Economic Index's January 2026 report found AI
+  used in 25%+ of tasks in 49% of occupations (up from 36% in the first
+  report), and its March 2026 labor market report found "no significant
+  rise in unemployment" for high-AI-exposure occupations overall, but
+  "suggestive evidence" of slowing hiring for workers aged 22–25 in those
+  occupations
+- Chapter 6: The book documents Anthropic's February 2026 refusal to grant
+  the U.S. Department of Defense contractual guarantees against autonomous
+  weapons and domestic surveillance use, followed by Claude reaching #1 on
+  the App Store above ChatGPT in 16 countries
+
+## Author & Full Catalog
+
+This book is one of 20+ open-source books by Satoshi Yamauchi (山内怜史),
+AI Strategist & Business Designer at Sun Asterisk Inc., Founder of Leading.AI.
+
+> **Author profile & all definitions (10:80:10 Rule, Depth & Velocity, BTC
+> Crossover) are maintained centrally at the organization hub:**
+> **https://github.com/Leading-AI-IO**
