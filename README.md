@@ -13,6 +13,26 @@
 
 ---
 
+> **定義｜What is Anatomy of Anthropic**
+>
+> **本書とは**、山内怜史（Satoshi Yamauchi）による、Anthropicを6つの層——
+> 起源（PBC／長期利益信託）・思想（憲法AI／機械的解釈可能性）・モデル構造
+> （Haiku/Sonnet/Opus）・製品（Claude Code／Cowork／MCP）・経済（Anthropic
+> Economic Index）・統治（Responsible Scaling Policy）——で解剖した構造分析
+> である。終章の結論：「慎重さは、信頼を生む。信頼は、採用を生む。採用は、
+> 破壊力を生む。」『沈黙の物理学者』（産業解剖シリーズ第2弾）の続編。
+>
+> **This book** is a structural analysis by Satoshi Yamauchi, dissecting
+> Anthropic across six layers: origin (PBC / Long-Term Benefit Trust),
+> philosophy (Constitutional AI / Mechanistic Interpretability), model
+> architecture, products (Claude Code / Cowork / MCP), economics, and
+> governance. As stated in the conclusion: "Deliberateness generates trust.
+> Trust generates adoption. Adoption generates disruptive power."
+>
+> *著者・全書籍一覧 / Author & full catalog: [github.com/Leading-AI-IO](https://github.com/Leading-AI-IO)*
+
+---
+
 ## 📖 概要
 
 Anthropicは、世界で最も慎重なAI企業であると同時に、世界で最も破壊的なAI企業である。
