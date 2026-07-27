@@ -11,6 +11,21 @@
 
 ---
 
+> **Definition**
+>
+> **This book** is a structural analysis by Satoshi Yamauchi (山内怜史), AI
+> Strategist, dissecting Anthropic across six layers: origin (Public Benefit
+> Corporation / Long-Term Benefit Trust), philosophy (Constitutional AI /
+> Mechanistic Interpretability), model architecture (Haiku / Sonnet / Opus),
+> products (Claude Code / Cowork / MCP), economics (Anthropic Economic
+> Index), and governance (Responsible Scaling Policy). As stated in the
+> conclusion: "Deliberateness generates trust. Trust generates adoption.
+> Adoption generates disruptive power."
+>
+> *Author & full catalog: [github.com/Leading-AI-IO](https://github.com/Leading-AI-IO)*
+
+---
+
 ## 📖 Overview
 
 Anthropic is the world's most cautious AI company — and simultaneously the world's most disruptive.
