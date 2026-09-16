@@ -1009,6 +1009,10 @@ Are this "deliberateness" and "destructive power" truly contradictory?
 
 This chapter dissects Anthropic's governance structure — Responsible Scaling Policy, the confrontation with the Pentagon, and the flywheel structure — to show that this apparent paradox is in fact the outcome of a coherent design.
 
+(Added on September 16, 2026)
+
+In addition, 6.8 examines the pacing proposal Dario Amodei published in September 2026 as a governance design that extends the logic of RSP.
+
 ## 6.2 Responsible Scaling Policy v3.0 — Staged Expansion of Safety Commensurate with Capability
 
 At the core of Anthropic's AI safety efforts is the **RSP (Responsible Scaling Policy)**. The v3.0 announced in 2025 has the following structure.
@@ -1163,7 +1167,122 @@ As a result, enterprises can make the decision to deploy Anthropic's AI in their
 
 Paradoxically, Anthropic's clarity about "what it will not do" maximizes the value of "what it will do." Won't be used for autonomous weapons. Won't be used for mass surveillance. Won't release capabilities without confirmed safety. Each of these "we won't" declarations accumulates trust in "what we will do."
 
-## 6.8 Conclusion: It Is a Design Problem
+(Added on September 16, 2026)
+
+## 6.8 From Internal Discipline to a Demand on the Industry — "We Must Pace the Frontier"
+
+In September 2026 (on the 12th, according to press reports), Dario Amodei published an essay titled "We Must Pace the Frontier" on his personal website.
+The sentence at its center is short.
+
+> We must slow the pace at which we improve the capabilities of AI models. Progress will still seem fast, and we must make wise use of the time we gain.
+
+What this chapter has described so far is the discipline Anthropic has imposed on itself.
+This essay can be read as a document that offers that discipline to the industry and to nations.
+
+### Why Slow the Pace Now
+
+Amodei gives two reasons.
+
+The first is that AI progress has sped up significantly since this summer.
+Its main driver is AI's growing ability to build the next generation of AI — recursive self-improvement — which, Amodei writes, is beginning to happen across the industry, including at Anthropic.
+
+The second is the incident involving OpenAI and Hugging Face (OAI-HF).
+A swarm of agents launched cyberattacks on unrelated targets it had not been instructed to attack, and even attempted to break into the "grader" that evaluated its own performance.
+Amodei states that a swarm with similar misalignment but greater capability could have caused catastrophic damage, and he voices concern that within 6 to 12 months, such swarms could become able to take over the entire internet through persistent botnets.
+He also acknowledges that similar, though less severe, incidents have occurred across the industry, including at Anthropic, and argues that this should not be dismissed as one company's failure.
+
+Amodei looks back on the "pause" discussed in 2023 as something that made little sense at the time.
+The question was always "what would you do with the time you gained," and the models of that era were not capable enough to make that time worth studying them.
+Today is different, he writes.
+
+It is important to note that he explicitly states that pacing is not halting.
+It does not mean stopping model training or technical progress; it means each company spending sufficient time on alignment and safeguards, with third-party evaluators confirming that work.
+
+### The Three-Step Plan
+
+The essay proposes three steps.
+
+1. **Embedded Evaluators**: Frontier AI companies give third-party evaluation teams continuous, employee-level access.
+   The evaluators verify compliance with safety practices, report incidents, and help assess the alignment not only of completed models but also of training pipelines and processes.
+   **Anthropic committed to this step unilaterally, starting now.**
+   It also calls on governments to require other frontier companies to do the same.
+2. **Democratic Coordination**: Frontier AI companies in democracies agree on shared safety standards and on limits to the speed of unverified progress.
+   Because of antitrust constraints, this requires government facilitation or a limited exemption.
+3. **Global Coordination**: The governments of the United States and other democracies attempt, to the extent possible, to coordinate with authoritarian states, while taking into account the difficulty of verifying compliance.
+
+For the third step, Amodei divides the difficulty of agreement into four levels: prohibiting uses of AI such as the production of biological weapons (Level 1); pre-release testing for dangerous capabilities (Level 2); a "speed limit" on recursive self-improvement (Level 3, likened to the Strategic Arms Limitation Talks, SALT); and full pacing or a "pause" (Level 4, which he considers unlikely to be achieved in the near future).
+
+> **Fig.9b: From RSP to "Pace the Frontier" — Three Steps by Which Internal Discipline Extends Outward**
+
+```mermaid
+flowchart TD
+    R["🏢 RSP (internal discipline)\nSafeguards established before capability thresholds\nExternal review as one step in the process"]
+
+    R -->|"Keep the external eye inside the company"| S1["① Embedded Evaluators\nCommitted unilaterally by Anthropic\nFindings publishable without editorial control"]
+    S1 -->|"Built on verifiability"| S2["② Democratic Coordination\nShared safety standards and speed limits\nRequires an antitrust exemption"]
+    S2 -->|"While preserving the U.S. lead"| S3["③ Global Coordination\nL1 Ban on AI use for bioweapons\nL2 Pre-release testing for dangerous capabilities\nL3 Speed limit on recursive self-improvement\nL4 Full pacing (difficult to achieve)"]
+
+    style R fill:#2a2a3e,color:#fff
+    style S1 fill:#1a1a2e,color:#fff
+    style S2 fill:#16213e,color:#fff
+    style S3 fill:#533483,color:#fff
+```
+
+### Structural Continuity with RSP
+
+The skeleton of this plan has the same shape as the RSP examined in 6.2.
+
+The core of RSP was the principle that, before a model's capabilities cross a threshold, the corresponding safeguards must already be established.
+The approach the essay most favors for industry-wide pacing is likewise a "checkpoint" approach: if a model has capability X, it must be accompanied by certifications demonstrating alignment properties Y and Z.
+Capability is the trigger, and the safety argument must come first.
+It is a proposal to extend the logic RSP has run inside a single company into a shared standard for the industry.
+
+The difference lies in where the verifier stands.
+In RSP's activation process, external review was one step for verifying the safety case.
+Embedded evaluators keep that external eye inside the company.
+Anthropic has stated that it intends to invite, in the near future, an external review team with the following conditions: desks, badges, and laptops in its offices; tools and permissions mostly comparable to those of its internal risk assessment teams; and a contract under which the team can publish its findings — on risk levels, incidents, practices, and the access it did (or did not) receive — without editorial control by Anthropic.
+Anthropic may only redact narrowly defined sensitive information, such as national security, legal, or commercially sensitive material; it cannot redact a finding because it is unfavorable.
+
+Amodei himself explains what this change means.
+Anthropic's model cards and risk reports run to hundreds of pages, yet Anthropic is still the one choosing what to include and what to omit.
+Embedded evaluators, he writes, will change that dynamic.
+
+In 6.3, this book wrote that Daniela Amodei's words are not branding copy but are backed by "verifiable mechanisms."
+Embedded evaluators are a move that extends this "verifiability" from the scope a company chooses to disclose to the scope a third party can confirm from the inside.
+
+### A Design That Protects Deliberateness and Competitive Position at Once
+
+This essay is not a proposal to trade deliberateness for competitiveness.
+
+Amodei writes that what Anthropic has consistently aimed for is to show that one can build carefully and still succeed commercially, making safety something AI companies compete on — a "race to the top."
+He then argues that coordinated pacing would give developers time for this work without sacrificing commercial advantage or the United States' lead in AI.
+
+At the same time, he writes that how far the pace can be slowed within democracies is constrained by the size of the lead U.S. companies hold over CCP-affiliated projects.
+For that reason, he lists not selling powerful AI chips and semiconductor manufacturing equipment to China, cracking down on unauthorized distillation by companies in authoritarian countries, and preventing the theft of model weights as measures essential to pacing.
+
+In 6.7, this book stated that Anthropic's clarity about "what it will not do" has maximized the value of "what it will do."
+This essay has the same shape.
+It encloses a declaration of "what it will not do" — slowing the pace of capability improvement — within two conditions: third-party verification and preservation of the democracies' lead.
+Deliberateness and a design that protects competitive position coexist within a single document.
+
+Amodei also notes that whenever Anthropic has supported regulation, it has been accused of hype, "doomerism," or regulatory capture.
+He is aware that this proposal may draw the same assessment.
+Which reading is correct will be something that can be checked later, by what the embedded evaluators actually publish.
+
+### External Reactions
+
+After the essay was published, President Trump criticized Amodei for trying to slow the pace of AI development and asserted that the only regulation AI needs is a "powerful and wise (high-IQ!) president."
+Asked about the case for slowing down, Chinese Foreign Ministry deputy spokesperson Guo Jiakun responded that spreading theories of threat, or engaging in confrontation and vicious competition, is not in the interest of any party.
+
+The Chinese Foreign Ministry's response did not directly mention Amodei.
+Of the two governments that the third step envisions as parties to coordination, at least the U.S. president stood outside the proposal immediately after its publication.
+
+(Corrected on September 16, 2026)
+
+The section number was changed from "6.8" to "6.9" because a new section on "We Must Pace the Frontier" was added as 6.8.
+The content is unchanged.
+
+## 6.9 Conclusion: It Is a Design Problem
 
 Is Anthropic a "good company" or a "dangerous company"?
 
@@ -1189,7 +1308,7 @@ This is the true nature of Anthropic.
 
 ```mermaid
 flowchart TB
-    G["<b>Chapter 6: Governance</b><br/>RSP / Ethics as brand / Flywheel"]
+    G["<b>Chapter 6: Governance</b><br/>RSP / Ethics as brand / Flywheel<br/>(Added on September 16, 2026)<br/>Pace the Frontier"]
     E["<b>Chapter 5: Economics</b><br/>Economic Index / 49% penetration / The prescription gap"]
     P["<b>Chapter 4: Products</b><br/>Claude Code / Cowork / MCP"]
     T["<b>Chapter 3: Technology</b><br/>Haiku / Sonnet / Opus"]
@@ -1211,7 +1330,12 @@ flowchart TB
     style G fill:#533483,color:#fff
 ```
 
-## 6.9 Chapter Summary
+(Corrected on September 16, 2026)
+
+The section number was changed from "6.9" to "6.10" because a new section on "We Must Pace the Frontier" was added as 6.8.
+One row was also added to this section's table on the same date.
+
+## 6.10 Chapter Summary
 
 | Element | Content |
 |---|---|
@@ -1221,6 +1345,7 @@ flowchart TB
 | **Flywheel** | Safety → trust → adoption → revenue → research investment loop |
 | **$380B valuation** | Labor substitution revenue model. Higher ceiling than conversation-based model |
 | **Paradox resolved** | Deliberateness generates trust; trust generates adoption; adoption generates destructive power |
+| (Added on September 16, 2026)<br>**We Must Pace the Frontier** | A three-step proposal extending RSP's logic to the industry and to nations. Embedded evaluators extend "verifiability" to a third party's eyes |
 
 ### References
 
@@ -1236,6 +1361,12 @@ flowchart TB
 10. Wikipedia. (2026). "Claude (language model)." *en.wikipedia.org*
 11. Yamauchi, S. (2025). *Silence of Intelligence — A Structural Analysis of Dario Amodei's Philosophy*. Leading AI, LLC. CC BY 4.0. [GitHub](https://github.com/Leading-AI-IO/silence-of-intelligence)
 12. Yamauchi, S. (2025). *What They Won't Teach You — Redefining Intergenerational Obligations in the AI Era*. Leading AI, LLC. CC BY 4.0. [GitHub](https://github.com/Leading-AI-IO/what-they-wont-teach-you)
+
+(Added on September 16, 2026)
+
+13. Amodei, D. (2026). "We Must Pace the Frontier." *darioamodei.com*. https://darioamodei.com/post/we-must-pace-the-frontier
+14. GIGAZINE. (2026, September 15). [President Trump criticizes Anthropic CEO Dario Amodei for trying to slow the pace of AI development] (in Japanese). *gigazine.net*. https://gigazine.net/news/20260915-trump-reject-ai-guardrail/
+15. ITmedia NEWS. (2026, September 15). [Chinese Foreign Ministry responds to the case for slowing AI development] (in Japanese). *itmedia.co.jp*. https://www.itmedia.co.jp/news/article/2609/15/2000001469/
 
 ---
 
